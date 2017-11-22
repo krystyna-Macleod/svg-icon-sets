@@ -1,13 +1,7 @@
 html {
   font-family: Overpass, sans-serif;
 }
-.red {
-  background-color: red;
-}
 
-.green {
-  background-color: green;
-}
 body {
   background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
 }
@@ -46,5 +40,8 @@ section:last-child {
     border-right: 3px solid rgba(255, 255, 255, 1);
   }
 
+  a {
+    padding: 5000px;
+  }
 
 }
