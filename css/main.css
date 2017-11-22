@@ -40,8 +40,8 @@ section:last-child {
     border-right: 3px solid rgba(255, 255, 255, 1);
   }
 
-  a {
-    padding: 5000px;
+  .button a {
+  padding: 15px;
   }
 
 }
