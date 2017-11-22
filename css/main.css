@@ -10,7 +10,7 @@ main {
   color: #fff;
 }
 
-section {
+section:nth-child(3) {
   border-bottom: 3px solid rgba(255, 255, 255, 1);
 }
 
@@ -24,4 +24,16 @@ section {
   color: #ff5e3a;
   background-color: #fff;
   border: 3px solid #fff;
+}
+
+@media only screen and (min-width: 60em) {
+
+  section {
+    border-bottom: none;
+  }
+
+  section:nth-child(3) {
+    border-right: 3px solid rgba(255, 255, 255, 1);
+  }
+
 }
