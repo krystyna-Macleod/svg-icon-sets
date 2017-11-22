@@ -10,7 +10,7 @@ main {
   color: #fff;
 }
 
-section:nth-child(3) {
+section:nth-child(4) {
   border-bottom: 3px solid rgba(255, 255, 255, 1);
 }
 
@@ -27,14 +27,14 @@ section:nth-child(3) {
 }
 
 @media only screen and (min-width: 60em) {
-/*
+
   section {
     border-bottom: none;
   }
 
-  section:nth-child(3) {
+  section:nth-child(4) {
     border-right: 3px solid rgba(255, 255, 255, 1);
   }
-  */
+
 
 }
