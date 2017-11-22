@@ -1,7 +1,13 @@
 html {
   font-family: Overpass, sans-serif;
 }
+.red {
+  background-color: red;
+}
 
+.green {
+  background-color: green;
+}
 body {
   background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
 }
@@ -10,8 +16,12 @@ main {
   color: #fff;
 }
 
-section:nth-child(4) {
+section {
   border-bottom: 3px solid rgba(255, 255, 255, 1);
+}
+
+section:last-child {
+  border-color: transparent;
 }
 
 .btn {
@@ -32,7 +42,7 @@ section:nth-child(4) {
     border-bottom: none;
   }
 
-  section:nth-child(4) {
+  section:nth-child(3) {
     border-right: 3px solid rgba(255, 255, 255, 1);
   }
 
